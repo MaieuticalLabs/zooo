@@ -27,7 +27,7 @@
             "anno_nascita": 2021,
             "titolo": "Vim, cucciolo iperattivo",
             "descrizione": "Sono un cucciolo di border collie <strong>iperattivo</strong>. Sono tanto tenero, ma cerca di non affezionarti troppo ai tuoi mobili.",
-            "image": "https://loremflickr.com/500/500/border-collie-dog",
+            "image": "https://loremflickr.com/500/500/border-collie",
             "adottabile": true
         },
         "unix.2004": {
@@ -37,7 +37,7 @@
             "anno_nascita": 2011,
             "titolo": "Unix, border collie anziano e paziente",
             "descrizione": "Unix è un border collie adulto che cerca solo dei grattini. <strong>Al momento non è adottabile finché non avrà completato la profilassi per il mordicchio</strong>.",
-            "image": "https://loremflickr.com/500/500/dog-border-collie-playing",
+            "image": "https://loremflickr.com/500/500/border-collie",
             "adottabile": false
         },
         "nat.2005": {
@@ -57,7 +57,7 @@
             "anno_nascita": 2016,
             "titolo": "Stash, corso che non ha voglia di correre",
             "descrizione": "No, sul serio, non ha proprio voglia di correre, <strong>astenersi sportivi</strong>.",
-            "image": "https://loremflickr.com/500/500/dog-corso",
+            "image": "https://loremflickr.com/500/500/cane-corso",
             "adottabile": true
         },
         "ansible.2007": {
