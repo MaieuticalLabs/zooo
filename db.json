@@ -1,124 +1,129 @@
-{
-    "data": {
-        "proxy.2001": {
-            "nome": "Proxy",
-            "animale": "cane",
-            "razza": "METICCIO",
-            "anno_nascita": 2019,
-            "titolo": "Proxy cerca casa",
-            "descrizione": "Proxy cerca una famiglia. Si tratta di un animale molto dolce <strong>ma non lascia entrare i gatti in casa</strong>.",
-            "image": "https://loremflickr.com/500/500/dog",
-            "adottabile": true
-        },
-        "bash.2002": {
-            "nome": "Bash",
-            "animale": "cane",
-            "razza": "volpino",
-            "anno_nascita": 2015,
-            "titolo": "Bash, simpatico volpino di mezza età",
-            "descrizione": "Bash inizia ad avere la sua età, ma potrebbe essere l'occasione perfetta per invecchiare insieme guardando i cantieri!",
-            "image": "https://loremflickr.com/500/500/dog",
-            "adottabile": true
-        },
-        "vim.2003": {
-            "nome": "Vim",
-            "animale": "cane",
-            "razza": "border Collie",
-            "anno_nascita": 2021,
-            "titolo": "Vim, cucciolo iperattivo",
-            "descrizione": "Sono un cucciolo di border collie <strong>iperattivo</strong>. Sono tanto tenero, ma cerca di non affezionarti troppo ai tuoi mobili.",
-            "image": "https://loremflickr.com/500/500/dog",
-            "adottabile": true
-        },
-        "unix.2004": {
-            "nome": "Unix",
-            "animale": "cane",
-            "razza": "Border collie",
-            "anno_nascita": 2011,
-            "titolo": "Unix, border collie anziano e paziente",
-            "descrizione": "Unix è un border collie adulto che cerca solo dei grattini. <strong>Al momento non è adottabile finché non avrà completato la profilassi per il mordicchio</strong>.",
-            "image": "https://loremflickr.com/500/500/dog",
-            "adottabile": false
-        },
-        "nat.2005": {
-            "nome": "Nat",
-            "animale": "gatto",
-            "razza": "Certosino",
-            "anno_nascita": 2020,
-            "titolo": "Nat, palla di pelo rancorosa",
-            "descrizione": "Nat è un gatto buono, ma adora giudicare le persone, <strong>preferibilmente da una mensola in alto</strong>. Al momento non è adottabile",
-            "image": "https://loremflickr.com/500/500/cat",
-            "adottabile": false
-        },
-        "stash.2006": {
-            "nome": "Stash",
-            "animale": "cane",
-            "razza": "CORSO",
-            "anno_nascita": 2016,
-            "titolo": "Stash, corso che non ha voglia di correre",
-            "descrizione": "No, sul serio, non ha proprio voglia di correre, <strong>astenersi sportivi</strong>.",
-            "image": "https://loremflickr.com/500/500/dog",
-            "adottabile": true
-        },
-        "ansible.2007": {
-            "nome": "Ansible",
-            "animale": "gatto",
-            "razza": "CERTOSINO",
-            "anno_nascita": 2017,
-            "titolo": "Certo, certosino",
-            "descrizione": "Ansible è un certosino adulto che non chiede altro di lasciare i suoi peli nel letto di una vera famiglia",
-            "image": "https://loremflickr.com/500/500/cat",
-            "adottabile": true
-        },
-        "git.2008": {
-            "nome": "Git",
-            "animale": "gatto",
-            "razza": "siamese",
-            "anno_nascita": 2020,
-            "titolo": "Git, siamese che non vuole essere adottato.",
-            "descrizione": "Al momento di lui conosciamo solo il suo sguardo di disistima: <em\">:[</em>. Cercheremo di fargli cambiare idea.",
-            "image": "https://loremflickr.com/500/500/cat",
-            "adottabile": false
-        },
-        "yarn.2009": {
-            "nome": "Yarn",
-            "animale": "cane",
-            "razza": "maremmanO",
-            "anno_nascita": 2015,
-            "titolo": "Yarn, maremmano sonnacchioso",
-            "descrizione": "Nomen omen. Non potevamo scegliere un'onomatopea migliore per definire l'indole pacioccosa e sbadigliosa di questo cane",
-            "image": "https://loremflickr.com/500/500/dog",
-            "adottabile": true
-        },
-        "bingo.2010": {
-            "nome": "Bingo",
-            "animale": "lontra",
-            "razza": "asian short-clawed",
-            "anno_nascita": 2020,
-            "titolo": "Bingo, il gatto che non ti aspetti",
-            "descrizione": "Bingo ci è stato portato da una persona che pensava di aver acquistato un gatto. Ha iniziato ad insospettirsi dopo che il suo amico peloso ha iniziato a monopolizzare la vasca da bagno e a cercare sassolini per la casa.",
-            "image": "https://loremflickr.com/500/500/otter",
-            "adottabile": true
-        },
-        "pip.2011": {
-            "nome": "Pip",
-            "animale": "cane",
-            "razza": "pastore scozzese",
-            "anno_nascita": 2017,
-            "titolo": "Raduna tutti",
-            "descrizione": "Pip adora radunare cose, dovete solo sottostare ai suoi ordini.",
-            "image": "https://loremflickr.com/500/500/dog",
-            "adottabile": false
-        },
-        "bussolotto.2012": {
-            "nome": "Bussolotto",
-            "animale": "cane",
-            "razza": "meticcio",
-            "anno_nascita": 2015,
-            "titolo": "Archeologo dei materassi",
-            "descrizione": "Il padrone di casa. Al massimo è lui che adotta te.",
-            "image": "https://loremflickr.com/500/500/dog",
-            "adottabile": false
-        }
-    }
-}
+
+/**
+ * Mock database cani,
+ *  utile per eseguire i test
+ */
+export const mockDatabase = {
+  data: {
+    "proxy.2001": {
+      nome: "Proxy",
+      animale: "cane",
+      razza: "METICCIO",
+      anno_nascita: 2019,
+      titolo: "Proxy cerca casa",
+      descrizione: "Proxy cerca una famiglia. Si tratta di un animale molto dolce <strong>ma non lascia entrare i gatti in casa</strong>.",
+      image: "https://loremflickr.com/500/500/dog-barking",
+      adottabile: true
+    },
+    "bash.2002": {
+      nome: "Bash",
+      animale: "cane",
+      razza: "volpino",
+      anno_nascita: 2015,
+      titolo: "Bash, simpatico volpino di mezza età",
+      descrizione: "Bash inizia ad avere la sua età, ma potrebbe essere l'occasione perfetta per invecchiare insieme guardando i cantieri!",
+      image: "https://loremflickr.com/500/500/dog-volpino-italiano",
+      adottabile: true
+    },
+    "vim.2003": {
+      nome: "Vim",
+      animale: "cane",
+      razza: "border Collie",
+      anno_nascita: 2021,
+      titolo: "Vim, cucciolo iperattivo",
+      descrizione: "Sono un cucciolo di border collie <strong>iperattivo</strong>. Sono tanto tenero, ma cerca di non affezionarti troppo ai tuoi mobili.",
+      image: "https://loremflickr.com/500/500/dog-border-collie",
+      adottabile: true
+    },
+    "unix.2004": {
+      nome: "Unix",
+      animale: "cane",
+      razza: "Border collie",
+      anno_nascita: 2011,
+      titolo: "Unix, border collie anziano e paziente",
+      descrizione: "Unix è un border collie adulto che cerca solo dei grattini. <strong>Al momento non è adottabile finché non avrà completato la profilassi per il mordicchio</strong>.",
+      image: "https://loremflickr.com/500/500/dog-border-collie-playing",
+      adottabile: false
+    },
+    "nat.2005": {
+      nome: "Nat",
+      animale: "gatto",
+      razza: "Certosino",
+      anno_nascita: 2020,
+      titolo: "Nat, palla di pelo rancorosa",
+      descrizione: "Nat è un gatto buono, ma adora giudicare le persone, <strong>preferibilmente da una mensola in alto</strong>.Al momento non è adottabile",
+      image: "https://loremflickr.com/500/500/cat-playing",
+      adottabile: false
+    },
+    "stash.2006": {
+      nome: "Stash",
+      animale: "cane",
+      razza: "CORSO",
+      anno_nascita: 2016,
+      titolo: "Stash, corso che non ha voglia di correre",
+      descrizione: "No, sul serio, non ha proprio voglia di correre, <strong>astenersi sportivi</strong>.",
+      image: "https://loremflickr.com/500/500/dog-corso",
+      adottabile: true
+    },
+    "ansible.2007": {
+      nome: "Ansible",
+      animale: "gatto",
+      razza: "CERTOSINO",
+      anno_nascita: 2017,
+      titolo: "Certo, certosino",
+      descrizione: "Ansible è un certosino adulto che non chiede altro di lasciare i suoi peli nel letto di una vera famiglia",
+      image: "https://loremflickr.com/500/500/cat-grey",
+      adottabile: true
+    },
+    "git.2008": {
+      nome: "Git",
+      animale: "gatto",
+      razza: "siamese",
+      anno_nascita: 2020,
+      titolo: "Git, siamese che non vuole essere adottato.",
+      descrizione: "Al momento di lui conosciamo solo il suo sguardo di disistima: <em\">:[</em>. Cercheremo di fargli cambiare idea.",
+      image: "https://loremflickr.com/500/500/cat-siamese",
+      adottabile: false
+    },
+    "yarn.2009": {
+      nome: "Yarn",
+      animale: "cane",
+      razza: "maremmanO",
+      anno_nascita: 2015,
+      titolo: "Yarn, maremmano sonnacchioso",
+      descrizione: "Nomen omen. Non potevamo scegliere un'onomatopea migliore per definire l'indole pacioccosa e sbadigliosa di questo cane",
+      image: "https://loremflickr.com/500/500/dog-maremmano",
+      adottabile: true
+    },
+    "bingo.2010": {
+      nome: "Bingo",
+      animale: "lontra",
+      razza: "asian short-clawed",
+      anno_nascita: 2020,
+      titolo: "Bingo, il gatto che non ti aspetti",
+      descrizione: "Bingo ci è stato portato da una persona che pensava di aver acquistato un gatto. Ha iniziato ad insospettirsi dopo che il suo amico peloso ha iniziato a monopolizzare la vasca da bagno e a cercare sassolini per la casa.",
+      image: "https://loremflickr.com/500/500/otter",
+      adottabile: true
+    },
+    "pip.2011": {
+      nome: "Pip",
+      animale: "cane",
+      razza: "pastore scozzese",
+      anno_nascita: 2017,
+      titolo: "Raduna tutti",
+      descrizione: "Pip adora radunare cose, dovete solo sottostare ai suoi ordini.",
+      image: "https://loremflickr.com/500/500/dog-scottish-shepherd",
+      adottabile: false
+    },
+    "bussolotto.2012": {
+      nome: "Bussolotto",
+      animale: "cane",
+      razza: "meticcio",
+      anno_nascita: 2015,
+      titolo: "Archeologo dei materassi",
+      descrizione: "Il padrone di casa. Al massimo è lui che adotta te.",
+      image: "https://loremflickr.com/500/500/dog-sleeping-couch",
+      adottabile: false
+    },
+  },
+};
