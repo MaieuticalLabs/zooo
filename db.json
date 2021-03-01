@@ -7,7 +7,7 @@
             "anno_nascita": 2019,
             "titolo": "Proxy cerca casa",
             "descrizione": "Proxy cerca una famiglia. Si tratta di un animale molto dolce <strong>ma non lascia entrare i gatti in casa</strong>.",
-            "image": "https://loremflickr.com/500/500/dog-barking",
+            "image": "https://loremflickr.com/500/500/cane-meticcio",
             "adottabile": true
         },
         "bash.2002": {
@@ -17,7 +17,7 @@
             "anno_nascita": 2015,
             "titolo": "Bash, simpatico volpino di mezza età",
             "descrizione": "Bash inizia ad avere la sua età, ma potrebbe essere l'occasione perfetta per invecchiare insieme guardando i cantieri!",
-            "image": "https://loremflickr.com/500/500/dog-volpino-italiano",
+            "image": "https://loremflickr.com/500/500/volpino",
             "adottabile": true
         },
         "vim.2003": {
@@ -27,7 +27,7 @@
             "anno_nascita": 2021,
             "titolo": "Vim, cucciolo iperattivo",
             "descrizione": "Sono un cucciolo di border collie <strong>iperattivo</strong>. Sono tanto tenero, ma cerca di non affezionarti troppo ai tuoi mobili.",
-            "image": "https://loremflickr.com/500/500/dog-border-collie",
+            "image": "https://loremflickr.com/500/500/border-collie-dog",
             "adottabile": true
         },
         "unix.2004": {
@@ -47,7 +47,7 @@
             "anno_nascita": 2020,
             "titolo": "Nat, palla di pelo rancorosa",
             "descrizione": "Nat è un gatto buono, ma adora giudicare le persone, <strong>preferibilmente da una mensola in alto</strong>.Al momento non è adottabile",
-            "image": "https://loremflickr.com/500/500/cat-playing",
+            "image": "https://loremflickr.com/500/500/gatto-certosino-gioca",
             "adottabile": false
         },
         "stash.2006": {
@@ -67,7 +67,7 @@
             "anno_nascita": 2017,
             "titolo": "Certo, certosino",
             "descrizione": "Ansible è un certosino adulto che non chiede altro di lasciare i suoi peli nel letto di una vera famiglia",
-            "image": "https://loremflickr.com/500/500/cat-grey",
+            "image": "https://loremflickr.com/500/500/gatto-certosino",
             "adottabile": true
         },
         "git.2008": {
@@ -77,7 +77,7 @@
             "anno_nascita": 2020,
             "titolo": "Git, siamese che non vuole essere adottato.",
             "descrizione": "Al momento di lui conosciamo solo il suo sguardo di disistima: <em\">:[</em>. Cercheremo di fargli cambiare idea.",
-            "image": "https://loremflickr.com/500/500/cat-siamese",
+            "image": "https://loremflickr.com/500/500/gatto-siamese",
             "adottabile": false
         },
         "yarn.2009": {
@@ -87,7 +87,7 @@
             "anno_nascita": 2015,
             "titolo": "Yarn, maremmano sonnacchioso",
             "descrizione": "Nomen omen. Non potevamo scegliere un'onomatopea migliore per definire l'indole pacioccosa e sbadigliosa di questo cane",
-            "image": "https://loremflickr.com/500/500/dog-maremmano",
+            "image": "https://loremflickr.com/500/500/pastore-maremmano",
             "adottabile": true
         },
         "bingo.2010": {
@@ -107,7 +107,7 @@
             "anno_nascita": 2017,
             "titolo": "Raduna tutti",
             "descrizione": "Pip adora radunare cose, dovete solo sottostare ai suoi ordini.",
-            "image": "https://loremflickr.com/500/500/dog-scottish-shepherd",
+            "image": "https://loremflickr.com/500/500/lassie-dog",
             "adottabile": false
         },
         "bussolotto.2012": {
@@ -117,7 +117,7 @@
             "anno_nascita": 2015,
             "titolo": "Archeologo dei materassi",
             "descrizione": "Il padrone di casa. Al massimo è lui che adotta te.",
-            "image": "https://loremflickr.com/500/500/dog-sleeping-couch",
+            "image": "https://loremflickr.com/500/500/dog-sleeping",
             "adottabile": false
         }
     }
